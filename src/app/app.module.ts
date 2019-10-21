@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { InputTextModule } from 'primeng/components/inputtext/inputtext';
 import { ButtonModule } from 'primeng/components/button/button';
 import {TableModule} from 'primeng/table';
+import {TooltipModule} from 'primeng/components/tooltip/tooltip'
 
 import { AppComponent } from './app.component';
 import { from } from 'rxjs';
@@ -16,7 +17,8 @@ import { from } from 'rxjs';
     BrowserModule,
     InputTextModule,
     ButtonModule,
-    TableModule
+    TableModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
